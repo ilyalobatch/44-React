@@ -1,0 +1,16 @@
+.newspost {
+  &-container {
+    background-color: #bdcdf7;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+  &-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+}
