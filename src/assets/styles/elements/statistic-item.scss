@@ -1,0 +1,40 @@
+.galore-statistic-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  min-width: 240px;
+  height: 70px;
+  border-radius: 5px;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  background-color: #fff;
+
+  &-iconbox {
+    border-radius: 5px;
+    padding: 15px;
+    transform: translateY(-16px);
+  }
+
+  &-icon {
+    font-size: 36px;
+    color: #fff;
+  }
+
+  &-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+  }
+
+  &-description {
+    font-size: 13px;
+    color: grey;
+  }
+
+  &-value {
+    font-size: 20px;
+  }
+}

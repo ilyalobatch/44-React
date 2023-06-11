@@ -1,0 +1,23 @@
+.galore-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background-color: rgb(23, 23, 155);
+
+  &-title {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  &-icon {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  &-buttons {
+    display: flex;
+    gap: 20px;
+  }
+}

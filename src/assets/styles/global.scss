@@ -1,0 +1,11 @@
+.galore {
+  &-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    padding: 30px 40px 0;
+  }
+
+  &-bg-grey {
+    background-color: rgb(235, 235, 235);
+  }
+}
