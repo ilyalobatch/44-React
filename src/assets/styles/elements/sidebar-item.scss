@@ -1,0 +1,18 @@
+.galore-sidebar {
+  &-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+
+    &:hover > * {
+      color: black;
+    }
+  }
+
+  &-icon,
+  &-text {
+    font-size: 20px;
+    color: grey;
+  }
+}
